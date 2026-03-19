@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@source "../index.html";
+@source "./**/*.{js,ts,jsx,tsx}";
 /* 
  * Global Styling for Presentation App 
  * Strict dark mode premium aesthetic
