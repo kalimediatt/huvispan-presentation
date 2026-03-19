@@ -12,7 +12,7 @@ export default function Slide5Riscos() {
   return (
     <div className="slide-container w-full h-full flex flex-col justify-center max-w-6xl mx-auto">
       <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
-        <h2 className="text-5xl md:text-6xl font-black tracking-tighter flex items-center gap-4">
+        <h2 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tighter flex items-center gap-4">
           <span className="bg-gradient-to-r from-slate-50 to-orange-400 bg-clip-text text-transparent">
             O Ponto de Ruptura
           </span>

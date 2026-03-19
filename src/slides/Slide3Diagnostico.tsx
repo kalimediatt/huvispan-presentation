@@ -31,7 +31,7 @@ export default function Slide3Diagnostico() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        <h2 className="text-5xl md:text-6xl font-black tracking-tighter">
+        <h2 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tighter">
           <span className="bg-gradient-to-r from-slate-50 to-amber-400 bg-clip-text text-transparent">
             O Dia-a-Dia Real
           </span>

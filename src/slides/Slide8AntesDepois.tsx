@@ -30,7 +30,7 @@ export default function Slide8AntesDepois() {
         transition={{ duration: 0.6 }}
         className="text-center mb-10"
       >
-        <h2 className="text-5xl md:text-6xl font-black tracking-tighter">
+        <h2 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tighter">
           <span className="bg-gradient-to-r from-slate-50 to-green-400 bg-clip-text text-transparent">
             A Transformação
           </span>

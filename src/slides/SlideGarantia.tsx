@@ -20,7 +20,7 @@ export default function SlideGarantia() {
           <Shield size={16} />
           Garantia de Assertividade
         </div>
-        <h2 className="text-5xl md:text-6xl font-black tracking-tighter">
+        <h2 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tighter">
           <span className="bg-gradient-to-r from-slate-50 to-green-400 bg-clip-text text-transparent">
             100% de Precisão
           </span>

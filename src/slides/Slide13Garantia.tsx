@@ -36,7 +36,7 @@ export default function Slide13Garantia() {
         transition={{ duration: 0.6 }}
         className="text-center"
       >
-        <h2 className="text-4xl md:text-5xl font-black tracking-tighter">
+        <h2 className="text-3xl sm:text-4xl md:text-4xl sm:text-5xl font-black tracking-tighter">
           <span className="bg-gradient-to-r from-slate-50 to-green-400 bg-clip-text text-transparent">
             O que vocês recebem
           </span>

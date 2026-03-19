@@ -25,7 +25,7 @@ html, body {
 
 /* Base custom utilities */
 .slide-container {
-  @apply max-w-6xl w-full mx-auto flex flex-col items-center justify-center min-h-[100svh] px-4 py-6 md:px-16 md:py-16;
+  @apply max-w-6xl w-full mx-auto flex flex-col items-center justify-center min-h-[100svh] px-4 py-8 md:px-16 md:py-16 overflow-y-auto overflow-x-hidden md:overflow-visible;
 }
 
 /* Subtle animations & gradients mapping */

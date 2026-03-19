@@ -43,7 +43,7 @@ export default function Slide9Fluxo() {
         transition={{ duration: 0.6 }}
         className="text-center mb-12"
       >
-        <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-white">
+        <h2 className="text-3xl sm:text-4xl md:text-4xl sm:text-5xl font-black tracking-tighter text-white">
           A Jornada de um Pagamento
         </h2>
         <p className="mt-3 text-lg text-slate-400 font-light">

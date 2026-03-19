@@ -34,7 +34,7 @@ export default function Slide1Capa() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-          className="text-5xl md:text-[5rem] lg:text-[6rem] font-bold tracking-tighter leading-[1] mb-8"
+          className="text-4xl sm:text-5xl md:text-[5rem] lg:text-[6rem] font-bold tracking-tighter leading-[1] mb-8"
         >
           <div className="whitespace-nowrap">
             <span className="text-blue-500">Automação</span>{' '}

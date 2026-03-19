@@ -28,7 +28,7 @@ export default function Slide7Niveis() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        <h2 className="text-4xl md:text-5xl font-black tracking-tighter">
+        <h2 className="text-3xl sm:text-4xl md:text-4xl sm:text-5xl font-black tracking-tighter">
           <span className="bg-gradient-to-r from-slate-50 to-cyan-400 bg-clip-text text-transparent">
             Inteligência entre o Banco e o ERP
           </span>

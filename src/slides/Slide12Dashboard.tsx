@@ -21,7 +21,7 @@ export default function Slide12Dashboard() {
   return (
     <div className="slide-container w-full h-full flex flex-col justify-center max-w-6xl mx-auto">
       <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="mb-8 text-center">
-        <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-white">
+        <h2 className="text-3xl sm:text-4xl md:text-4xl sm:text-5xl font-black tracking-tighter text-white">
           Visão Gerencial. Não Operacional.
         </h2>
         <p className="mt-3 text-lg text-slate-400 font-light">

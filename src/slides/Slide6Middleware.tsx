@@ -13,7 +13,7 @@ export default function Slide6Middleware() {
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.3 }}
-        className="text-4xl md:text-6xl font-black tracking-tighter text-center text-slate-200 leading-tight"
+        className="text-3xl sm:text-4xl md:text-6xl font-black tracking-tighter text-center text-slate-200 leading-tight"
       >
         A pergunta não é{' '}
         <span className="text-white">SE</span>{' '}
@@ -33,7 +33,7 @@ export default function Slide6Middleware() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 2.5 }}
-        className="text-4xl md:text-6xl font-black tracking-tighter text-center leading-tight"
+        className="text-3xl sm:text-4xl md:text-6xl font-black tracking-tighter text-center leading-tight"
       >
         <span className="text-slate-400">É se vão fazer </span>
         <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">

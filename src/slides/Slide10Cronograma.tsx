@@ -19,7 +19,7 @@ export default function Slide10Cronograma() {
   return (
     <div className="slide-container w-full h-full flex flex-col justify-center max-w-6xl mx-auto">
       <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
-        <h2 className="text-5xl md:text-6xl font-black tracking-tighter text-slate-100">
+        <h2 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tighter text-slate-100">
           MVP em <span className="text-blue-500">60 Dias</span>
         </h2>
         <p className="mt-3 text-lg text-slate-400 font-light max-w-2xl">

@@ -11,7 +11,7 @@ export default function Slide11Trincheiras() {
   return (
     <div className="slide-container w-full h-full flex flex-col justify-center items-center max-w-5xl mx-auto text-center">
       <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
-        <h2 className="text-5xl md:text-6xl font-black tracking-tighter text-white">
+        <h2 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tighter text-white">
           3 Camadas de Proteção
         </h2>
         <p className="mt-4 text-xl text-slate-400 max-w-2xl mx-auto font-light">
