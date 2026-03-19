@@ -93,7 +93,7 @@ export default function Slide1Capa() {
         </div>
         
         {/* Right Side: Confidential text (Pagination is handled entirely by App.tsx at fixed right-8) */}
-        <div className="flex items-center gap-12 text-slate-500 text-xs font-mono tracking-widest hidden md:flex mr-20">
+        <div className="flex items-center gap-3 md:gap-3 md:p-6 md:gap-6 md:p-12 text-slate-500 text-xs font-mono tracking-widest hidden md:flex mr-20">
           <span>Documento Confidencial — Preparado exclusivamente para Huvispan Têxtil</span>
         </div>
       </motion.div>

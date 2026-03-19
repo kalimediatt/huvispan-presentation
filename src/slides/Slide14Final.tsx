@@ -42,7 +42,7 @@ export default function Slide14Final() {
         initial="hidden"
         animate="visible"
         variants={{ visible: { transition: { staggerChildren: 0.15, delayChildren: 0.8 } } }}
-        className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-14 w-full"
+        className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4 md:mt-8 md:mt-14 w-full"
       >
         {STEPS.map((step, i) => {
           const Icon = step.icon;
@@ -54,7 +54,7 @@ export default function Slide14Final() {
                 hidden: { opacity: 0, y: 20 },
                 visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
               }}
-              className={`p-6 rounded-2xl border ${
+              className={`p-3 md:p-6 rounded-2xl border ${
                 isGreen
                   ? 'bg-green-950/20 border-green-800/40'
                   : 'bg-slate-900/50 border-slate-800/60'
@@ -83,7 +83,7 @@ export default function Slide14Final() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.8, duration: 0.8 }}
-        className="mt-12"
+        className="mt-6 md:mt-12"
       >
         <div className="h-px w-32 bg-gradient-to-r from-transparent via-slate-700 to-transparent mx-auto mb-6" />
         <span className="text-sm tracking-[0.3em] text-slate-600 font-bold">RENOMADE</span>

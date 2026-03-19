@@ -35,7 +35,7 @@ export default function SlideGarantia() {
         initial="hidden"
         animate="visible"
         variants={{ visible: { transition: { staggerChildren: 0.15, delayChildren: 0.4 } } }}
-        className="grid grid-cols-3 gap-4 mt-10"
+        className="grid grid-cols-3 gap-4 mt-6 md:mt-10"
       >
         {GUARANTEES.map((g, i) => (
           <motion.div
@@ -57,7 +57,7 @@ export default function SlideGarantia() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.2, duration: 0.8 }}
-        className="mt-10 bg-green-950/10 border border-green-900/30 rounded-2xl p-8 text-center relative"
+        className="mt-6 md:mt-10 bg-green-950/10 border border-green-900/30 rounded-2xl p-4 md:p-8 text-center relative"
       >
         <Quote size={40} className="absolute top-4 left-6 text-green-500/10" />
         <p className="text-2xl md:text-3xl font-bold text-slate-100 italic leading-relaxed max-w-3xl mx-auto relative z-10">

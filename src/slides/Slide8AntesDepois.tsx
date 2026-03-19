@@ -40,13 +40,13 @@ export default function Slide8AntesDepois() {
         </p>
       </motion.div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-3 md:p-6">
         {/* BEFORE Panel */}
         <motion.div
           initial={{ opacity: 0, x: -30 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
-          className="bg-red-950/10 border border-red-900/30 rounded-2xl p-6 relative overflow-hidden"
+          className="bg-red-950/10 border border-red-900/30 rounded-2xl p-3 md:p-6 relative overflow-hidden"
         >
           <div className="flex items-center gap-2 mb-5">
             <XCircle size={20} className="text-red-400" />
@@ -77,7 +77,7 @@ export default function Slide8AntesDepois() {
           initial={{ opacity: 0, x: 30 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6, delay: 0.6 }}
-          className="bg-green-950/10 border border-green-900/30 rounded-2xl p-6 relative overflow-hidden"
+          className="bg-green-950/10 border border-green-900/30 rounded-2xl p-3 md:p-6 relative overflow-hidden"
         >
           <div className="flex items-center gap-2 mb-5">
             <CheckCircle size={20} className="text-green-400" />
@@ -109,7 +109,7 @@ export default function Slide8AntesDepois() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.8, duration: 0.6 }}
-        className="mt-8 flex justify-center items-center gap-6 text-center"
+        className="mt-4 md:mt-8 flex justify-center items-center gap-3 md:gap-3 md:p-6 text-center"
       >
         <span className="text-3xl font-bold text-red-400 line-through font-mono opacity-60">3-4 horas</span>
         <motion.span

@@ -23,7 +23,7 @@ export default function Slide11Trincheiras() {
         initial="hidden"
         animate="visible"
         variants={{ visible: { transition: { staggerChildren: 0.2, delayChildren: 0.4 } } }}
-        className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full mt-14"
+        className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-3 md:p-6 w-full mt-4 md:mt-8 md:mt-14"
       >
         {PROTECTIONS.map((prot, i) => {
           const Icon = prot.icon;
@@ -34,7 +34,7 @@ export default function Slide11Trincheiras() {
                 hidden: { opacity: 0, scale: 0.9, y: 20 },
                 visible: { opacity: 1, scale: 1, y: 0, transition: { duration: 0.5 } },
               }}
-              className={`${prot.bg} border ${prot.border} p-8 rounded-2xl flex flex-col items-center text-center hover:-translate-y-1 transition-transform`}
+              className={`${prot.bg} border ${prot.border} p-4 md:p-8 rounded-2xl flex flex-col items-center text-center hover:-translate-y-1 transition-transform`}
             >
               <div className={`w-14 h-14 rounded-2xl ${prot.bg} border ${prot.border} flex items-center justify-center mb-5 ${prot.color}`}>
                 <Icon size={28} />

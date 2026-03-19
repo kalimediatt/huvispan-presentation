@@ -112,7 +112,7 @@ export default function Slide9Fluxo() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 2, duration: 0.6 }}
-        className="mt-8 flex justify-center"
+        className="mt-4 md:mt-8 flex justify-center"
       >
         <div className="bg-slate-900/60 border border-slate-800/60 rounded-full px-6 py-2 flex items-center gap-3">
           <div className={`w-2 h-2 rounded-full transition-colors duration-500 ${

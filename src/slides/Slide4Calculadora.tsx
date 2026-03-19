@@ -43,13 +43,13 @@ export default function Slide4Calculadora() {
         </p>
       </motion.div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mt-12 w-full h-full lg:max-h-[500px] pb-24 lg:pb-0 overflow-y-auto lg:overflow-visible">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-3 md:gap-3 md:p-6 md:gap-6 md:p-12 mt-6 md:mt-12 w-full h-full lg:max-h-[500px] pb-24 lg:pb-0 overflow-y-auto lg:overflow-visible">
         {/* Controls - Left Side */}
         <motion.div 
           initial={{ opacity: 0, x: -30 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="lg:col-span-5 flex flex-col gap-8 bg-slate-900/50 p-8 rounded-2xl border border-slate-800/60 shadow-xl"
+          className="lg:col-span-5 flex flex-col gap-4 md:gap-4 md:p-8 bg-slate-900/50 p-4 md:p-8 rounded-2xl border border-slate-800/60 shadow-xl"
         >
           {/* Slider 1 */}
           <div className="flex flex-col gap-3">

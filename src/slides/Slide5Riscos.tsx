@@ -29,7 +29,7 @@ export default function Slide5Riscos() {
         initial="hidden"
         animate="visible"
         variants={{ visible: { transition: { staggerChildren: 0.15, delayChildren: 0.3 } } }}
-        className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-10"
+        className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-6 md:mt-10"
       >
         {RISKS.map((risk, i) => {
           const Icon = risk.icon;
@@ -42,7 +42,7 @@ export default function Slide5Riscos() {
               }}
               className="bg-slate-900/40 border border-slate-800/60 p-5 rounded-2xl flex flex-col hover:border-orange-500/30 transition-colors group relative overflow-hidden"
             >
-              <div className="absolute -right-12 -top-12 opacity-5 group-hover:opacity-10 transition-opacity">
+              <div className="absolute -right-12 -top-6 md:p-12 opacity-5 group-hover:opacity-10 transition-opacity">
                 <Icon size={140} />
               </div>
 

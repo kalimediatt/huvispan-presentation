@@ -61,7 +61,7 @@ export default function Slide2Entregas() {
         </p>
       </motion.div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-12">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-5 md:p-10 mt-6 md:mt-12">
         {/* LEFT: Friction Cards */}
         <motion.div
           initial="hidden"
@@ -96,7 +96,7 @@ export default function Slide2Entregas() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8, duration: 0.6 }}
-          className="flex flex-col items-center justify-center bg-slate-900/50 border border-slate-800/60 rounded-2xl p-8 relative overflow-hidden"
+          className="flex flex-col items-center justify-center bg-slate-900/50 border border-slate-800/60 rounded-2xl p-4 md:p-8 relative overflow-hidden"
         >
           <div className="text-xs uppercase tracking-widest text-slate-600 font-semibold mb-6">
             O Loop Manual Diário

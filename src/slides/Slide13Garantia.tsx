@@ -51,7 +51,7 @@ export default function Slide13Garantia() {
         initial="hidden"
         animate="visible"
         variants={{ visible: { transition: { staggerChildren: 0.12, delayChildren: 0.4 } } }}
-        className="mt-10 flex flex-col gap-2"
+        className="mt-6 md:mt-10 flex flex-col gap-2"
       >
         {STACK_ITEMS.map((item, i) => {
           const Icon = item.icon;

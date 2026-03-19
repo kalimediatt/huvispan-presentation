@@ -10,7 +10,6 @@ import Slide4Calculadora from './slides/Slide4Calculadora'; // Calculadora de Pr
 import Slide5Riscos from './slides/Slide5Riscos';           // "O Ponto de Ruptura"
 
 // ACT II — A EPIFANIA (Slides 6-9)
-import Slide6Bridge from './slides/Slide6Middleware';        // "A Pergunta Certa" (bridge)
 import Slide7Middleware from './slides/Slide7Niveis';        // Middleware 3-colunas
 import Slide8AntesDepois from './slides/Slide8AntesDepois';  // "A Transformação"
 import Slide9Pipeline from './slides/Slide9Fluxo';           // Pipeline Animado
@@ -33,7 +32,6 @@ const SLIDES = [
   Slide4Calculadora,
   Slide5Riscos,
   // ACT II
-  Slide6Bridge,
   Slide7Middleware,
   Slide8AntesDepois,
   Slide9Pipeline,

@@ -28,13 +28,13 @@ export default function Slide10Cronograma() {
       </motion.div>
 
       {/* Horizontal Timeline */}
-      <div className="mt-14 relative">
+      <div className="mt-4 md:mt-8 md:mt-14 relative">
         {/* Line */}
         <motion.div
           initial={{ scaleX: 0 }}
           animate={{ scaleX: 1 }}
           transition={{ duration: 1.5, delay: 0.3, ease: 'easeInOut' }}
-          className="absolute top-8 left-0 right-0 h-0.5 bg-slate-800 origin-left z-0"
+          className="absolute top-4 md:p-8 left-0 right-0 h-0.5 bg-slate-800 origin-left z-0"
         />
 
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 relative z-10">
@@ -74,7 +74,7 @@ export default function Slide10Cronograma() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.8, duration: 0.8 }}
-        className="mt-10 text-center text-xs font-medium text-slate-500 bg-slate-900/50 inline-block mx-auto px-6 py-2 rounded-full border border-slate-800/60"
+        className="mt-6 md:mt-10 text-center text-xs font-medium text-slate-500 bg-slate-900/50 inline-block mx-auto px-6 py-2 rounded-full border border-slate-800/60"
       >
         Entregas validadas por bloco. Faturamento avança com aprovação.
       </motion.div>

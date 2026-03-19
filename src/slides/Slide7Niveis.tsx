@@ -39,7 +39,7 @@ export default function Slide7Niveis() {
       </motion.div>
 
       {/* 3-Column Flow: INPUT → ENGINE → OUTPUT */}
-      <div className="mt-10 grid grid-cols-1 lg:grid-cols-[1fr_1.5fr_1fr] gap-6 items-center">
+      <div className="mt-6 md:mt-10 grid grid-cols-1 lg:grid-cols-[1fr_1.5fr_1fr] gap-3 md:gap-3 md:p-6 items-center">
 
         {/* LEFT: Inputs */}
         <motion.div
@@ -68,7 +68,7 @@ export default function Slide7Niveis() {
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.6 }}
-          className="bg-blue-950/30 border border-blue-500/30 rounded-2xl p-6 shadow-[0_0_40px_rgba(59,130,246,0.08)] relative"
+          className="bg-blue-950/30 border border-blue-500/30 rounded-2xl p-3 md:p-6 shadow-[0_0_40px_rgba(59,130,246,0.08)] relative"
         >
           {/* Animated flow arrows */}
           <motion.div

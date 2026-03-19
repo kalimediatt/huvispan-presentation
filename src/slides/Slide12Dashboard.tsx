@@ -46,7 +46,7 @@ export default function Slide12Dashboard() {
           </div>
         </div>
 
-        <div className="p-6 bg-slate-950">
+        <div className="p-3 md:p-6 bg-slate-950">
           {/* Dash Header */}
           <div className="flex justify-between items-end border-b border-slate-800 pb-4 mb-5">
             <div>

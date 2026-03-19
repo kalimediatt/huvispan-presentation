@@ -42,7 +42,7 @@ export default function Slide3Diagnostico() {
       </motion.div>
 
       {/* Step-by-step animated flow */}
-      <div className="mt-12 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
+      <div className="mt-6 md:mt-12 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
         {STEPS.map((step, i) => {
           const Icon = step.icon;
           const isLast = i === STEPS.length - 1;
@@ -70,7 +70,7 @@ export default function Slide3Diagnostico() {
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ delay: step.delay + 0.3 }}
-                  className="absolute -right-2 top-6 text-slate-700 text-lg hidden lg:block"
+                  className="absolute -right-2 top-3 md:p-6 text-slate-700 text-lg hidden lg:block"
                 >
                   →
                 </motion.div>
@@ -101,7 +101,7 @@ export default function Slide3Diagnostico() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 4.2, duration: 0.6 }}
-        className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4"
+        className="mt-4 md:mt-8 grid grid-cols-2 md:grid-cols-4 gap-4"
       >
         <div className="bg-red-950/20 border border-red-900/30 rounded-xl p-4 text-center">
           <div className="text-3xl font-black text-red-400 font-mono">
