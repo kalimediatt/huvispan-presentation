@@ -87,11 +87,8 @@ export default function Slide1Capa() {
         transition={{ duration: 1, delay: 1 }}
         className="fixed bottom-6 w-full left-0 px-8 flex justify-between items-end z-10 pointer-events-none"
       >
-        {/* Left Side: Logo & Date */}
+        {/* Left Side: Date */}
         <div className="flex items-center gap-3">
-          <div className="w-8 h-8 rounded-full border border-white/10 flex items-center justify-center bg-black shadow-lg">
-            <span className="text-white font-bold text-xs font-sans">N</span>
-          </div>
           <span className="text-slate-500 text-xs font-mono tracking-widest uppercase">Março 2026</span>
         </div>
         
