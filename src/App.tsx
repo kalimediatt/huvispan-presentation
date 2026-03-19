@@ -29,7 +29,6 @@ const SLIDES = [
   Slide1Capa,
   Slide2Entregas,
   Slide3Diagnostico,
-  Slide4Calculadora,
   Slide5Riscos,
   // ACT II
   Slide7Middleware,
@@ -39,7 +38,8 @@ const SLIDES = [
   Slide10Dashboard,
   Slide11Timeline,
   Slide12Protections,
-  // ACT IV
+  // ACT IV (Transition to pricing)
+  Slide4Calculadora,
   Slide13Garantia,
   Slide14ValueStack,
   Slide15Final,
@@ -80,8 +80,8 @@ export default function App() {
       } else if (e.key === 'ArrowLeft') {
         prevSlide();
       } else if (e.key === ' ' || e.key === 'Spacebar') {
-        // Disable space on calculator slide (index 3)
-        if (currentSlide !== 3) {
+        // Disable space on calculator slide (index 10)
+        if (currentSlide !== 10) {
           e.preventDefault();
           nextSlide();
         }
