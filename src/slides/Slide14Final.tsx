@@ -42,7 +42,7 @@ export default function Slide14Final() {
         initial="hidden"
         animate="visible"
         variants={{ visible: { transition: { staggerChildren: 0.15, delayChildren: 0.8 } } }}
-        className="grid grid-cols-3 gap-4 mt-14 w-full"
+        className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-14 w-full"
       >
         {STEPS.map((step, i) => {
           const Icon = step.icon;

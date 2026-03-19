@@ -59,7 +59,7 @@ export default function Slide12Dashboard() {
           </div>
 
           {/* KPIs */}
-          <div className="grid grid-cols-3 gap-4 mb-5">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-5">
             <div className="bg-slate-900/50 border border-slate-800 p-4 rounded-xl">
               <div className="text-slate-400 text-xs mb-1 flex items-center gap-1.5">
                 <CheckCircle2 size={14} className="text-blue-400" /> Conciliado Automático

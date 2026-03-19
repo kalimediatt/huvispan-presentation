@@ -43,7 +43,7 @@ export default function Slide4Calculadora() {
         </p>
       </motion.div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mt-12 w-full h-full max-h-[500px]">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mt-12 w-full h-full lg:max-h-[500px] pb-24 lg:pb-0 overflow-y-auto lg:overflow-visible">
         {/* Controls - Left Side */}
         <motion.div 
           initial={{ opacity: 0, x: -30 }}

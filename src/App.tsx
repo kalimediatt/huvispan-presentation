@@ -125,14 +125,24 @@ export default function App() {
           animate={{ opacity: 1, y: 0, scale: 1 }}
           exit={{ opacity: 0, y: -20, scale: 1.01 }}
           transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }}
-          className="absolute inset-0 w-full h-full flex items-center justify-center p-8 md:p-16 z-10"
+          drag="x"
+          dragConstraints={{ left: 0, right: 0 }}
+          dragElastic={0.05}
+          onDragEnd={(_, info) => {
+            if (info.offset.x < -50) {
+              nextSlide();
+            } else if (info.offset.x > 50) {
+              prevSlide();
+            }
+          }}
+          className="absolute inset-0 w-full h-full flex items-center justify-center p-4 md:p-8 lg:p-16 z-10 overflow-hidden"
         >
           <CurrentSlideComponent />
         </motion.div>
       </AnimatePresence>
 
       {/* Navigation */}
-      <div className="fixed bottom-6 left-1/2 -translate-x-1/2 flex items-center gap-6 opacity-0 hover:opacity-100 transition-opacity duration-300 z-50 bg-slate-900/60 backdrop-blur-md px-6 py-3 rounded-full border border-slate-700/50 shadow-2xl">
+      <div className="fixed bottom-4 md:bottom-6 left-1/2 -translate-x-1/2 flex items-center gap-4 md:gap-6 opacity-100 md:opacity-0 md:hover:opacity-100 transition-opacity duration-300 z-50 bg-slate-900/60 backdrop-blur-md px-4 py-2 md:px-6 md:py-3 rounded-full border border-slate-700/50 shadow-2xl">
         <button
           onClick={prevSlide}
           disabled={currentSlide === 0}
