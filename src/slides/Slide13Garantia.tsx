@@ -17,12 +17,12 @@ function AnimatedCurrency({ value }: { value: number }) {
 }
 
 const STACK_ITEMS = [
-  { icon: BrainCircuit, label: 'Motor de Conciliação 4 Níveis', value: 45000 },
-  { icon: LayoutDashboard, label: 'Dashboard Gerencial Tempo Real', value: 30000 },
-  { icon: Globe, label: 'Integração 8 Bancos + 4 FIDCs', value: 28000 },
-  { icon: Cpu, label: 'IA de Classificação Automática', value: 20000 },
-  { icon: GraduationCap, label: 'Treinamento + Documentação + IT', value: 12000 },
-  { icon: HeadphonesIcon, label: 'Suporte Dedicado por 60 dias', value: 13000 },
+  { icon: BrainCircuit, label: 'Motor de Conciliação 4 Níveis', value: 55000 },
+  { icon: LayoutDashboard, label: 'Dashboard Gerencial Tempo Real', value: 35000 },
+  { icon: Globe, label: 'Integração 8 Bancos + 4 FIDCs', value: 32000 },
+  { icon: Cpu, label: 'IA de Classificação Automática', value: 25000 },
+  { icon: GraduationCap, label: 'Treinamento + Documentação + IT', value: 15000 },
+  { icon: HeadphonesIcon, label: 'Suporte Dedicado por 60 dias', value: 15000 },
 ];
 
 const TOTAL = STACK_ITEMS.reduce((a, b) => a + b.value, 0);
@@ -101,7 +101,7 @@ export default function Slide13Garantia() {
         transition={{ delay: 2.2, duration: 0.6 }}
         className="mt-6 text-center text-sm text-slate-500 italic"
       >
-        O investimento real será apresentado verbalmente. Foco agora: o valor que vocês levam.
+        Investimento total: R$ 177.000 — parcelável. Código-fonte entregue. Sem lock-in.
       </motion.p>
     </div>
   );
